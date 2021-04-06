@@ -1,0 +1,145 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, p {
+    color: #1e1879;
+}
+
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+
+
+}
+.wrapper-table{
+    width: fit-content;
+    margin: 0 auto;
+}
+.wrapper-table h1{
+    padding-bottom: 30px;
+}
+tr:first-child td {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    fon-size: 20px;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+tr:nth-child(even) {
+    background-color: #cccccc;
+}
+
+tr:first-child:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #1e1879;
+    color: #fff;
+
+}
+
+input, textarea {
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+textarea {
+    resize: none;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #1e1879;
+    color: #fff;
+    border: none;
+    display: block;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.wrapper-nav {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    background-color: #dcdcdc;
+    margin-bottom: 30px;
+
+}
+
+nav {
+    width: 100%;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: #1e1879;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 516px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper h1 {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Films</title>
+</head>
+<body>
+<main>
+    <div class="container">
+        <%- include ('blocks/menu.ejs') %>
+
+        <div class="wrapper">
+            <h1>Add film:</h1>
+            <form method="post" action="/add">
+                <input name="russian_name" type="text" placeholder="Russ name">
+                <input name="year" type="text" placeholder="Year">
+                <input name="original_name" type="text" placeholder="Original name">
+                <textarea name="actors" cols="30" rows="5" placeholder="Actor1, Actor2, Actor3"></textarea>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

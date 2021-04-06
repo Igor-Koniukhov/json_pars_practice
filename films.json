@@ -1,0 +1,26 @@
+[
+  {
+    "original_name": "the lion King",
+    "russian_name": "Король Лев",
+    "year": "1994",
+    "actors": "Mєттью Бродерик"
+  },
+  {
+    "original_name": "Zootopia",
+    "russian_name": "Зверополис",
+    "year": "2016",
+    "actors": "Джинифер Гудвин"
+  },
+  {
+    "russian_name": "Машинист",
+    "year": "2004",
+    "original_name": "The Machinist",
+    "actors": "Кристиан Бейл, Дженнифер Джейсон Ли, Айтана Санчес-Хихон"
+  },
+  {
+    "russian_name": "Боец",
+    "year": "2010",
+    "original_name": "The Figther",
+    "actors": "Марк Уолберг, Кристиан Бейл, Эми Адамс"
+  }
+]
